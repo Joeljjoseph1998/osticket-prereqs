@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
+<img src="https://i.imgur.com/Clzj7Xs.png"/>
 </p>
 
 <h1> How to Install osTicket </h1>
@@ -33,28 +33,30 @@ This is an easy guide to installing a help desk ticketing system called osTicket
 <br />
 </p>
 <p>
-	<img src="https://i.imgur.com/eBi5k2l.png" height="75%" width="100%" alt="Resource Group"/>
+	<img src="https://i.imgur.com/eBi5k2l.png" height="75%" width="100%" />
 </p>
 <p>
 <h3 align="center">Now, create a Windows 10 Virtual Machine (VM), typically with 2-4 Virtual CPUs. For username and password, it can be anything as we'll be using this info to remote in with our main computer. When creating the Virtual Machine (VM), allow Azure to create a new Virtual Network (Vnet):</h3>
 <br />
 </p>
 <p>
-	<img src="https://i.imgur.com/dEF1c7h.png" height="75%" width="100%" alt="Windows Virtual Machine"/>
+	<img src="https://i.imgur.com/dEF1c7h.png" height="75%" width="100%" />
 </p>
 <br />
 <br />
-<h3 align="center">Open your Remote Desktop Connection app on your computer and connect to your Virtual Machine that was created in Azure. NOTE: If you're asked to sign into your main account (your computer) click on "More Options".</h3>
+<h3 align="center">Open your Remote Desktop Connection app on your computer and connect to your Virtual Machine that was created in Azure. </h3>
 <br />
 <p>
-	<img src="https://github.com/Joeljjoseph1998/osticket-prereqs/assets/50834280/955cc844-f3c8-4717-8ffb-2730169a94cd"alt="Remote Desktop"/>
+	<img src="https://github.com/Joeljjoseph1998/osticket-prereqs/assets/50834280/2e71fd86-4198-47aa-aa1a-d0aed1b8e0eb"/>
+	
+
 </p>
 <br />
 <br />
 <h3 align="center">Now we need to install / Enable IIS in Windows. Go to your Search Bar > Type "Control Panel" > Click "Programs" > "Turn Windows features on or off" > Scroll down to "Internet Information Services (IIS).</h3>
 <br />
 <p>
-	<img src="https://i.imgur.com/iB0DDRd.png" height="75%" width="100%" alt="Enable IIS in Windows"/>
+	<img src="https://i.imgur.com/iB0DDRd.png" height="75%" width="100%" />
 </p>
 <br />
 <br />
@@ -102,16 +104,8 @@ This is an easy guide to installing a help desk ticketing system called osTicket
 </h3>
 <p>
   <img src="https://i.imgur.com/IVpLg40.png"75%" width="100%"/>
-  <img src="https://i.imgur.com/zdhWXNx.png" height="75%" width="100%" alt="Credentials"/>
-</p>
 <br/>
-
-<h3 align="center">Configure IIS</h3>
-<h3 align="center"> Run IIS as Admin. Register PHP from within IIS and install osTicket. From there, open the Windows tab and search for IIS. Right Click IIS to run as admin. Once opened, you will see the PHP manager. Click it and you will see that PHP is not enabled. Press register, "New PHP" version and click "browse" (The 3 dots button tab.) Finally, open the PHP folder, click PHP-CGI, and press done or Ok.
-</h3>
-<p>
-  <img src="https://i.imgur.com/IVpLg40.png"75%" width="100%"/>
-  <img src="https://i.imgur.com/zdhWXNx.png" height="75%" width="100%" alt="Credentials"/>
+  <img src="https://i.imgur.com/zdhWXNx.png" height="75%" width="100%" />
 </p>
 <br/>
 <h3 align="center">Install osTicket v1.15.8</h3>
@@ -122,13 +116,13 @@ This is an easy guide to installing a help desk ticketing system called osTicket
 <p>
 	Extract and copy the “upload” folder INTO c:\inetpub\wwwroot:
 </p>
-	<img src="https://i.imgur.com/0MUJLMU.png" height="75%" width="100%" alt="PHP Manager"/>
-	<img src="https://i.imgur.com/1h9goM8.png" height="75%" width="100%" alt="PHP Manager"/>
+	<img src="https://i.imgur.com/0MUJLMU.png" height="75%" width="100%" />
+	<img src="https://i.imgur.com/1h9goM8.png" height="75%" width="100%" />
 <p>
 	Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”:
 </p>
 <p>
-	<img src="https://i.imgur.com/pDikkgq.png" height="75%" width="100%" alt="rename to osTicket"/>
+	<img src="https://i.imgur.com/pDikkgq.png" height="75%" width="100%" />
 </p>
 <br />
 <br />
@@ -138,13 +132,13 @@ This is an easy guide to installing a help desk ticketing system called osTicket
 	Go to sites -> Default -> osTicket:
 </p>
 <p>
-	<img src="https://i.imgur.com/QeWNlG3.png" height="75%" width="100%" alt="default osTicket"/>
+	<img src="https://i.imgur.com/QeWNlG3.png" height="75%" width="100%" />
 </p>
 <p>
 	On the right, click “Browse *:80”:
 </p>
 <p>
-	<img src="https://i.imgur.com/3iXhNbi.png" height="75%" width="100%" alt="port 80"/>
+	<img src="https://i.imgur.com/3iXhNbi.png" height="75%" width="100%"/>
 </p>
 <br />
 <br />
@@ -157,7 +151,7 @@ This is an easy guide to installing a help desk ticketing system called osTicket
 	Double-click PHP Manager:
 </p>
 <p>
-	<img src="https://i.imgur.com/LFKo5Hs.png" height="75%" width="100%" alt="PHP Manager"/>
+	<img src="https://i.imgur.com/LFKo5Hs.png" height="75%" width="100%" />
 </p>
 <p>
 	Click “Enable or disable an extension”.
@@ -172,14 +166,14 @@ This is an easy guide to installing a help desk ticketing system called osTicket
 	Enable: php_opcache.dll:
 </p>
 <p>
-	<img src="https://imgur.com/a/nrQo0kz" height="75%" width="100%" alt="Disk Sanitization Steps"/>
+	<img src="https://imgur.com/a/nrQo0kz" height="75%" width="100%"/>
 </p>
 <br />
 <br />
 <h3 align="center">Refresh the osTicket site in your browser, observe the changes</h3>
 <br />
 <p>
-	<img src="https://i.imgur.com/6iSNd4H.png" height="75%" width="100%" alt="osTicket change"/>
+	<img src="https://i.imgur.com/6iSNd4H.png" height="75%" width="100%" />
 </p>
 <br />
 <br />
@@ -192,7 +186,7 @@ This is an easy guide to installing a help desk ticketing system called osTicket
 	To: C:\inetpub\wwwroot\osTicket\include\ost-config.php:
 </p>
 <p>
-	<img src="https://i.imgur.com/TEw71SD.png" height="75%" width="100%" alt="ost-config"/>
+	<img src="https://i.imgur.com/TEw71SD.png" height="75%" width="100%" />
 </p>
 <br />
 <br />
@@ -202,16 +196,16 @@ This is an easy guide to installing a help desk ticketing system called osTicket
 	Disable inheritance -> Remove All:
 </p>
 <p>
-	<img src="https://i.imgur.com/1QtRWEF.png" height="75%" width="100%" alt="disable inheritance"/>
+	<img src="https://i.imgur.com/1QtRWEF.png" height="75%" width="100%" />
 </p>
 <p>
 	New Permissions -> Everyone -> All:
 </p>
 <p>
-	<img src="https://i.imgur.com/YzsMXNX.png" height="75%" width="100%" alt="new permissions"/>
+	<img src="https://i.imgur.com/YzsMXNX.png" height="75%" width="100%" />
 </p>
 <p>
-	<img src="https://i.imgur.com/k7x9yGR.png" height="75%" width="100%" alt="new permissions - all"/>
+	<img src="https://i.imgur.com/k7x9yGR.png" height="75%" width="100%" />
 </p>
 <br />
 <br />
@@ -224,15 +218,15 @@ This is an easy guide to installing a help desk ticketing system called osTicket
 	Default email (receives email from customers):
 </p>
 <p>
-	<img src="https://i.imgur.com/rvMvlNC.png" height="75%" width="100%" alt="continue osTicket setup"/>
-	<img src="https://i.imgur.com/YszhIpl.png" height="75%" width="100%" alt="osTicket settings"/>
+	<img src="https://i.imgur.com/rvMvlNC.png" height="75%" width="100%" />
+	<img src="https://i.imgur.com/YszhIpl.png" height="75%" width="100%" />
 </p>
 <br />
 <br />
 <h3 align="center">Download and Install HeidiSQL</h3>
 <br />
 <p>
-	<img src="https://i.imgur.com/AEg0b2P.png" height="75%" width="100%" alt="download HeidiSQL"/>
+	<img src="https://i.imgur.com/AEg0b2P.png" height="75%" width="100%" />
 </p>
 <p>
 	Create a new session, root/Password1.
@@ -241,13 +235,13 @@ This is an easy guide to installing a help desk ticketing system called osTicket
 	Connect to the session:
 </p>
 <p>
-	<img src="https://i.imgur.com/9t51ApR.png" height="75%" width="100%" alt="create sessions"/>
+	<img src="https://i.imgur.com/9t51ApR.png" height="75%" width="100%" "/>
 </p>
 <p>
 	Create a database called “osTicket”:
 </p>
 <p>
-	<img src="https://i.imgur.com/vXzmQqg.png" height="75%" width="100%" alt="create database"/>
+	<img src="https://i.imgur.com/vXzmQqg.png" height="75%" width="100%" />
 </p>
 <br />
 <br />
@@ -261,12 +255,12 @@ This is an easy guide to installing a help desk ticketing system called osTicket
 	MySQL Password: Password1:
 </p>
 <p>
-	<img src="https://i.imgur.com/akDyber.png" height="75%" width="100%" alt="setting up osTicket cont'd"/>
+	<img src="https://i.imgur.com/akDyber.png" height="75%" width="100%" />
 </p>
 <p>Click “Install Now!”</p>
 <p>Congratulations, hopefully it is installed with no errors!</hp>
 <p>
-	<img src="https://i.imgur.com/J5omRoE.png" height="75%" width="100%" alt="installation complete"/>
+	<img src="https://i.imgur.com/J5omRoE.png" height="75%" width="100%" />
 </p>
 <br />
 <br />
@@ -276,20 +270,20 @@ This is an easy guide to installing a help desk ticketing system called osTicket
 	Delete: C:\inetpub\wwwroot\osTicket\setup:
 </p>
 <p>
-	<img src="https://i.imgur.com/eg0ZPG3.png" height="75%" width="100%" alt="clean up"/>
+	<img src="https://i.imgur.com/eg0ZPG3.png" height="75%" width="100%" />
 </p>
 <p>
 	Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php:
 </p>
 <p>
-	<img src="https://i.imgur.com/n6k46XL.png" height="75%" width="100%" alt="permissions"/>
+	<img src="https://i.imgur.com/n6k46XL.png" height="75%" width="100%" />
 </p>
 <br />
 <br />
 <h3 align="center">Login to the osTicket Admin Panel (http://localhost/osTicket/scp/login.php)</h3>
 <br />
 <p>
-	<img src="https://i.imgur.com/8wvWH0H.jpg" height="75%" width="100%" alt="admin panel"/>
+	<img src="https://i.imgur.com/8wvWH0H.jpg" height="75%" width="100%" />
 </p>
 <br />
 <br />
